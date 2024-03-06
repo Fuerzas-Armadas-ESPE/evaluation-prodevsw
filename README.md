@@ -1,5 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/rrhU57ko)
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 # Sistema de Gestión de Cursos para Docentes
 
 ```mermaid
@@ -22,7 +25,10 @@ graph TD;
   D --> O[Capturas de pantalla o vdeos demostrativos]
   N --> P[Configuración y ejecución del proyecto]
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 ## Evaluación
 
 Se evalúa la necesidad de desarrollar un sistema de gestión de cursos para docentes.
@@ -43,6 +49,7 @@ Se implementan medidas de seguridad en el backend para proteger las rutas y acci
 
 Se escriben pruebas unitarias para verificar el correcto funcionamiento de los controladores y servicios del backend, utilizando Jest como framework de pruebas.
 
+<<<<<<< HEAD
 ### Ejecución del Servidor
 
 1. Clona el repositorio desde GitHub utilizando el siguiente enlace: [Repositorio del Proyecto](https://classroom.github.com/a/rrhU57ko).
@@ -100,8 +107,14 @@ Recuerda que debes registrar los temas antes de relacionarlos con los cursos.
 
 Recuerda reemplazar "ID-del-tema-1" y "ID-del-tema-2" con los IDs reales de los temas relacionados.
 
+=======
+>>>>>>> master
 ## Entregable
 
 Se entrega un repositorio de GitHub con el código fuente del proyecto, documentación detallada sobre la configuración y ejecución del proyecto, y capturas de pantalla o vídeos demostrativos que muestren el sistema en funcionamiento.
 
+<<<<<<< HEAD
 Para visualizar y probar la generación del sistema backend, así como su consumo desde un Frontend, puedes utilizar herramientas como Thunder Client, Postman, Insomnia o RapidApiClient. Estas herramientas permiten realizar solicitudes HTTP a los endpoints del backend, lo que facilita la visualización de los datos y el funcionamiento del sistema en tiempo real.
+=======
+Para visualizar y probar la generación del sistema backend, así como su consumo desde un Frontend, puedes utilizar herramientas como Thunder Client, Postman, Insomnia o RapidApiClient. Estas herramientas permiten realizar solicitudes HTTP a los endpoints del backend, lo que facilita la visualización de los datos y el funcionamiento del sistema en tiempo real.
+>>>>>>> master
