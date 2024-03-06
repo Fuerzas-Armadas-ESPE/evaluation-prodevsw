@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/rrhU57ko)
+
 # Sistema de Gestión de Cursos para Docentes
 
 ```mermaid
@@ -21,6 +22,7 @@ graph TD;
   D --> O[Capturas de pantalla o vdeos demostrativos]
   N --> P[Configuración y ejecución del proyecto]
 ```
+
 ## Evaluación
 
 Se evalúa la necesidad de desarrollar un sistema de gestión de cursos para docentes.
@@ -40,6 +42,63 @@ Se implementan medidas de seguridad en el backend para proteger las rutas y acci
 ## Pruebas Unitarias con Jest en Backend
 
 Se escriben pruebas unitarias para verificar el correcto funcionamiento de los controladores y servicios del backend, utilizando Jest como framework de pruebas.
+
+### Ejecución del Servidor
+
+1. Clona el repositorio desde GitHub utilizando el siguiente enlace: [Repositorio del Proyecto](https://classroom.github.com/a/rrhU57ko).
+2. Abre una terminal y navega hasta la carpeta del proyecto clonado.
+3. Instala las dependencias del proyecto ejecutando el siguiente comando:
+
+```bash
+   npm install
+```
+
+#### Necesario
+
+1. Configura tu base de datos MongoDB y asegúrate de que esté en ejecución.
+
+2. Ejecuta el siguiente comando para iniciar el servidor:
+
+```bash
+npm run start:dev
+```
+
+El servidor estará en funcionamiento y listo para recibir solicitudes.
+
+### Prueba con Insomnia
+
+Para realizar pruebas con Insomnia, puedes seguir estos pasos:
+
+1. Abre la aplicación Insomnia en tu computadora.
+2. Crea una nueva solicitud y selecciona el método HTTP adecuado (GET, POST, PUT, DELETE).
+3. Ingresa la URL de la ruta de la API que deseas probar.
+4. Proporciona los datos de la solicitud, como el cuerpo de la solicitud para crear nuevos cursos o temas.
+5. Envía la solicitud y observa la respuesta del servidor.
+
+##### Aquí tienes algunos datos de prueba para utilizar con Insomnia:
+
+#### Datos de prueba para creación de temas:
+
+```json
+{
+  "name": "Tema de Pruebas",
+  "description": "Este es un tema de prueba para probar la funcionalidad."
+}
+```
+
+Recuerda que debes registrar los temas antes de relacionarlos con los cursos.
+
+#### Datos de prueba para creación de cursos:
+
+```json
+{
+  "name": "Curso de Programación Avanzada",
+  "description": "Aprende conceptos avanzados de programación.",
+  "topics": ["ID-del-tema-1", "ID-del-tema-2"]
+}
+```
+
+Recuerda reemplazar "ID-del-tema-1" y "ID-del-tema-2" con los IDs reales de los temas relacionados.
 
 ## Entregable
 
